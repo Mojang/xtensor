@@ -9,7 +9,9 @@ jobs:
 
   publish:
 
-    runs-on: ubuntu-latest
+    runs-on:
+      - self-hosted
+      - 1ES.Pool=MC-Runner-1ES-Linux
 
     defaults:
       run:
